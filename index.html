@@ -421,6 +421,83 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+
+        <form>
+          <div class="modal-field">
+            <label class="modal-text"
+              >Name
+              <span class="modal-input-wrap">
+                <input
+                  type="name"
+                  class="modal-input"
+                  name="name"
+                  title="Jack Jackson"
+                  required
+                />
+                <svg class="input-icon" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-text"
+              >Phone
+              <span class="modal-input-wrap">
+                <input
+                  type="tel"
+                  class="modal-input"
+                  name="phone"
+                  title="0950000000"
+                  required />
+                <svg class="input-icon" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-phone"></use></svg
+              ></span>
+            </label>
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-text"
+              >Email
+              <span class="modal-input-wrap">
+                <input
+                  type="email"
+                  class="modal-input"
+                  name="email"
+                  title="test@mail.de"
+                  required />
+                <svg class="input-icon" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-email"></use></svg
+              ></span>
+            </label>
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-text" for="comment"
+              >Comment
+              <textarea
+                name="comment"
+                class="modal-input modal-textarea"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+
+          <div class="modal-field">
+            <label class="modal-text">
+              <input
+                type="checkbox"
+                class="modal-input modal-checkbox"
+                name="policy"
+              />
+              I accept the terms and conditions of the Privacy Policy
+            </label>
+          </div>
+
+          <button type="submit" class="hero-btn button modal-btn">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
