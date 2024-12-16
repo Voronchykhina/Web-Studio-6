@@ -435,7 +435,7 @@
                   title="Jack Jackson"
                   required
                 />
-                <svg class="input-icon" width="18px" height="18px">
+                <svg class="input-icon" width="18px" height="24px">
                   <use href="./images/icons.svg#icon-person"></use>
                 </svg>
               </span>
@@ -452,7 +452,7 @@
                   name="phone"
                   title="0950000000"
                   required />
-                <svg class="input-icon" width="18px" height="18px">
+                <svg class="input-icon" width="18px" height="24px">
                   <use href="./images/icons.svg#icon-phone"></use></svg
               ></span>
             </label>
@@ -468,7 +468,7 @@
                   name="email"
                   title="test@mail.de"
                   required />
-                <svg class="input-icon" width="18px" height="18px">
+                <svg class="input-icon" width="18px" height="24px">
                   <use href="./images/icons.svg#icon-email"></use></svg
               ></span>
             </label>
@@ -486,13 +486,26 @@
           </div>
 
           <div class="modal-field">
-            <label class="modal-text">
-              <input
-                type="checkbox"
-                class="modal-input modal-checkbox"
-                name="policy"
-              />
-              I accept the terms and conditions of the Privacy Policy
+            <input
+              type="checkbox"
+              class="modal-checkbox is-hidden"
+              id="modal-checkbox"
+              name="policy"
+              value="policy"
+              required
+              checked
+            />
+            <label for="modal-checkbox" class="check-text">
+              <span>
+                <svg class="check-icon" width="11" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp;<a
+                href=""
+                class="text-link"
+                >Privacy Policy</a
+              >
             </label>
           </div>
 
